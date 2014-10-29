@@ -1,0 +1,34 @@
+{
+  "name": "svg-buttons",
+  "version": "1.0.0",
+  "description": "SVG Button Generator for GitHub README files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dtinth/svg-buttons.git"
+  },
+  "keywords": [
+    "svg",
+    "buttons"
+  ],
+  "author": "Thai Pangsakulyanont <org.yi.dttvb@gmail.com> (http://dt.in.th/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/svg-buttons/buttons/issues"
+  },
+  "homepage": "https://github.com/svg-buttons/buttons",
+  "dependencies": {
+    "express": "^4.10.0",
+    "harp": "^0.14.0",
+    "semver": "^4.1.0",
+    "terraform": "^0.9.0",
+    "when": "^3.5.1"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
